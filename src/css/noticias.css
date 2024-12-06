@@ -164,14 +164,7 @@
     }
 }
 
-/* Carousel */
 
-
-
-
-
-
-/* next prev arrows */
 
 .arrows{
     position: absolute;
@@ -229,11 +222,6 @@
 /* Responsive Design */
 
 @media screen and (max-width: 999px){
-    
-    header{
-        padding-left: 50px;
-    }
-
     .list .item .content3{
         left: 50px;
     }
@@ -274,4 +262,20 @@
 
 .content3 {
     filter: brightness(100%) !important;
+}
+
+@media screen and (max-width: 690px) {
+    .content3 .des{
+        font-size: 16px;
+        width: 90%;
+    }
+
+    #title-fdp {
+        font-size: 40px;
+    }
+
+    .title {
+        width: 90%;
+        font-size: 40px;
+    }
 }
